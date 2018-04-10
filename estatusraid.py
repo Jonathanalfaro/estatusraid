@@ -101,6 +101,6 @@ if __name__ == '__main__':
         tabla = obtenTabla()
         estado, mensaje = checaestado(tabla)
         if estado != 0:
-            enviaestado()
+            enviaestado(mensaje)
         time.sleep(10)
         print tablaacadena(tabla)
